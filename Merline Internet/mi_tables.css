@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*
+	Marlin Internet Pricing
+	Author: Nidhibahen Patel
+	Date: 08/15/2020
+
+	Filename:	mi_tables.css
+
+*/
+
+/* Table Styles */
+
+
+table { 
+	background-color:white;
+	border:5px solid #F5FFFA;
+	border-collapse:collapse;
+	min-width:800px;
+}
+
+caption { 
+	caption-side:bottom;
+	text-align:left;
+	color: coral;
+	padding-top:10px;
+}
+
+td,th {
+	border:3px solid #A9A9A9;
+	padding:8px;
+	line-height:140%;
+	text-align: center;
+}
+
+th {
+	width:19%;
+}
+
+td {
+	font-size:0.9em;
+	vertical-align:top;
+}
+
+
+tr:nth-of-type(even) {
+	background-color: #FFFAF0;
+	color:#002744;
+}
+
+tr:nth-of-type(odd) {
+	background-color:white;
+	color:black;
+}
+
+tr:first-of-type,tr:last-of-type {
+	background-color: #B0E0E6;
+	color:black;
+}
+
+tr:first-of-type th:first-of-type {
+	width:24%;
+	font-size:1.8em;
+}
+
+tr:first-of-type th:not(:first-of-type) {
+	font-size:1.2em;
+}
+
+tr:last-of-type th:first-of-type {
+	vertical-align:top;
+	font-size:1.2em;
+}
+
+td[colspan]{
+	text-align:center;
+}

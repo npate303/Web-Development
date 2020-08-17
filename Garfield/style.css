@@ -1,0 +1,250 @@
+/*
+Garfield
+Author: Nidhibahen Patel
+Date: 08/15/2020
+
+Filename: style.css
+*/
+
+.faceUP {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg,gold,orange, darkorange);
+    margin-left: 300px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    z-index: 1;
+    position:fixed;
+    margin-top: 100px;
+    border: 2px solid orange;
+    /* box-shadow:10px 10px darkorange; */
+  }
+
+  .eyeLeft {
+    background: linear-gradient( -180deg, darkorange, darkorange 49%, darkorange 49%,darkorange 51%, black 51% );
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    margin-left: 310px;
+    margin-top: 145px;
+  }
+
+  .eyeRight {
+    background: linear-gradient( -180deg, darkorange, darkorange 49%, darkorange 49%,darkorange 51%, black 51% );
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    margin-left: 380px;
+    margin-top: 145px;
+  }
+
+  .nose {
+    width: 40px;
+    height: 20px;
+    background: pink;
+    border-radius: 100px / 50px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 360px;
+    margin-top: 190px;
+  }
+
+  .whiskerRight{
+    height:22.5px;
+    width:45px;
+    border-radius: 90px 90px 0 0;
+    background:lightyellow;
+    position: absolute;
+    z-index: 2;
+    margin-left: 370px;
+    margin-top: 200px;
+    transform: rotate(55deg);
+}
+
+.whiskerLeft{
+    height:22.5px;
+    width:45px;
+    border-radius: 90px 90px 0 0;
+    background:lightyellow;
+    position: absolute;
+    z-index: 2;
+    margin-left: 340px;
+    margin-top: 200px;
+    transform: rotate(300deg);
+}
+
+.earRight{
+  width: 150px;
+  height: 75px;
+  background-image: linear-gradient( to bottom,darkorange,orange );
+  border-radius: 100px / 50px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 330px;
+  margin-top: 100px;
+  transform: rotate(110deg);
+  box-shadow: -5px 5px gold;
+}
+
+.earLeft{
+  width: 150px;
+  height: 75px;
+  background-image: linear-gradient( to bottom,darkorange,orange );
+  border-radius: 100px / 50px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 280px;
+  margin-top: 100px;
+  transform: rotate(68deg);
+  box-shadow: -5px -5px gold;
+}
+
+.earRightBlack{
+  width: 50px;
+  height: 25px;
+  background: linear-gradient( -90deg, darkorange, orange 49%,orange 49%,gold 51%, black 51% );
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 394px;
+  margin-top: 82px;
+  transform: rotate(110deg);
+  color: azure;
+}
+
+.earLeftBlack{
+  width: 50px;
+  height: 25px;
+  background: linear-gradient( -90deg, darkorange, orange 49%,orange 49%,gold 51%, black 51% );
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 312px;
+  margin-top: 82px;
+  transform: rotate(68deg);
+  color: azure;
+}
+
+.LeftBlack1{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 280px;
+  margin-top: 125px;
+  transform: rotate(45deg);
+  
+}
+
+
+.LeftBlack2{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 270px;
+  margin-top: 135px;
+  transform: rotate(15deg);
+  
+}
+
+.LeftBlack3{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 270px;
+  margin-top: 150px;
+  transform: rotate(-15deg);
+}
+
+.RightBlack1{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 437px;
+  margin-top: 132px;
+  transform: rotate(140deg);
+}
+
+.RightBlack2{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 448px;
+  margin-top: 142px;
+  transform: rotate(170deg);
+}
+
+.RightBlack3{
+  width: 40px;
+  height: 10px;
+  background:  black ;
+  border-radius: 50px / 25px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 450px;
+  margin-top: 155px;
+  transform: rotate(195deg);
+}
+
+.msg {
+  width: 200px;
+  height: 90px;
+  background: white;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 500px;
+  margin-top: 40px;
+  transform: rotate(-15deg);
+  border: 7px solid gold;
+  box-shadow: 7px 7px orange;
+  font-family: 'Garfield', arial;
+}
+.msg:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid gold ;
+  border-bottom: 13px solid transparent;
+}
+
+.msgText{
+
+  margin-top: 40px;
+  margin-left: 10px;
+  text-shadow: 2px 2px grey;
+  letter-spacing: 1px;
+}
+
+.one{
+  font-family: 'Garfield', arial;
+  letter-spacing: 2px;
+  color: darkorange;
+  text-shadow: 3px 3px black;
+}
+
