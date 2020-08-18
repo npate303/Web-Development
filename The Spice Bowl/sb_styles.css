@@ -153,6 +153,12 @@ section aside ul {
    margin: 0px 0px 10px 10px;
 }
 
+section img{
+   height: 400px;
+   width: 400px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
 /* Footer Styles */
 
 footer {
