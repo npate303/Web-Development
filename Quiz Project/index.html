@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="siteBackground">
+
+    <div class="intro text-center">
+        <div class="container">
+            <h2 class="text-color display-3">
+                Crazy Quiz
+            </h2>
+        </div>
+    </div>
+    
+    <div class="quiz">
+        <div class="container">
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                  <p class="question font-weight-normal">1. What is a Bombay Duck?</p>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="wrong" checked>
+                    <label class="form-check-label option">type of duck</label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="correct">
+                    <label class="form-check-label option">type of fish</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="question font-weight-normal">2. What is the term for a group of owls?</p>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="correct" checked>
+                    <label class="form-check-label option">Parliament</label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="wrong">
+                    <label class="form-check-label option">Confusion</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="question font-weight-normal">3. What was the first animal sent into Space?</p>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="correct" checked>
+                    <label class="form-check-label option">dog</label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="wrong">
+                    <label class="form-check-label option">cat</label>
+                  </div>
+                </div>
+                <div class="my-5">
+                  <p class="question font-weight-normal">4. What is the length of New Zealand’s 90 Mile Beach?</p>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="wrong" checked>
+                    <label class="form-check-label option">90 miles</label>
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="correct">
+                    <label class="form-check-label option">50 miles</label>
+                  </div>
+                </div>
+                <div class="text-center ">
+                  <input type="submit" class=" btn button"> 
+                </div>
+              </form>
+        </div>
+    </div>
+  
+    <!-- 
+            1.py-3 : padding of strength 3 in y direction means up and down
+            2.container : keep conent means our text  in center column
+            3.text-primary : gives blue color text 
+            4.display : display text
+    -->
+  <script src="app.js"></script>
+</body>
+</html>
