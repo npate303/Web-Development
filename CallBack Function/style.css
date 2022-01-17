@@ -1,0 +1,16 @@
+.textHeading {
+    color: crimson;
+  }
+
+  p {
+      margin: 20px;
+      color:rosybrown;
+    }
+
+ .error {
+     color:darkred;
+ }
+
+ .success {
+   color: darkseagreen;
+ }
