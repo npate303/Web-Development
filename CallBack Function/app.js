@@ -58,19 +58,6 @@ paras.forEach((parasItem) => {
   }
 });
 
-// paras.forEach((parasItem) => {
-//   var x = parasItem.textContent;
-//   switch (x) {
-//     case parasItem.textContent.includes("success"):
-//       parasItem.setAttribute("style", "color : green");
-//       break;
+//---------------------------------------------------
 
-//     case parasItem.textContent.includes("error"):
-//       parasItem.setAttribute("style", "color : red");
-//       break;
-
-//     default:
-//       parasItem.setAttribute("style", "color : black");
-//   }
-// });
 
