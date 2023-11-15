@@ -11,4 +11,10 @@ const bill = (product , tax) => {
     return total
 }
 
+const submit = () =>
+{
+window.alert("form submitted");
+console.log("nidhi");
+}
 console.log(bill([1,2,4], 0.2))
+console.log(submit());
