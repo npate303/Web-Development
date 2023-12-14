@@ -8,7 +8,19 @@ function printName(){
     }
 }
 
+
+// closer example
+function x() {
+    let a = 9;
+        function y() {
+            console.log("ayayay" ,a);
+        }
+}
+
+x();
 printName(); 
+var email ="nidhibahen.j patel"
+copnsole.log("")
 
 console.log('yo');
 console.log(myName[4]);
